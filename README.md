@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🧠 Tic-Tac-Toe AI (React + Flask + Docker)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Tic-Tac-Toe game where you play against an AI powered by the **Minimax algorithm**, a classical machine learning approach used in turn-based games. Built with **React** for the frontend and **Flask** for the backend, and containerised using **Docker Compose** for easy setup and deployment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📦 Tech Stack
 
-### `npm start`
+- **Frontend**: React
+- **Backend**: Flask
+- **AI Algorithm**: Minimax (Classical ML)
+- **DevOps**: Docker, Docker Compose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🤖 AI opponent that uses the Minimax algorithm for optimal play
+- 🎮 Simple and intuitive user interface
+- ⚙️ REST API endpoint to interact with the AI logic
+- 🔀 Supports difficulty adjustment (depth-limited Minimax)
+- 🐳 Containerised with Docker for ease of use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠️ Installation
 
-### `npm run eject`
+1. **Clone the repository**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/BuffWuff1712/Tic_Tac_Toe.git
+   cd Tic_Tac_Toe
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Build and run the containers**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Open your terminal and run the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   docker-compose up --build
+   ```
+   This command will:
+   - Build the Docker images for both frontend and backend
+   - Start both containers
+   - Connect them via Docker’s internal network
+  
+3. **Open the app in your browser**
 
-## Learn More
+   Once the containers are running, open:
+   ```arduino
+   http://localhost:3000
+   ```
+   You should see the Tic-Tac-Toe game interface. You can now play against the AI!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💡 Future Improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here are some ideas for future enhancements to the project:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📊 Display a running scoreboard (wins, losses, draws)
+- 🎨 Improve the UI/UX with animations or sound effects
+- 🔄 Add a game history
+- 📱 Make the interface mobile responsive
+- 🌐 Deploy the app online (e.g., Render, Railway, or GitHub Pages + API host)
+- 🧪 Add unit tests for the AI and backend logic
