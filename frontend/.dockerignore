@@ -1,0 +1,30 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore env files
+.env
+
+# Ignore OS/IDE/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Node modules (for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# Ignore test or coverage
+coverage/
+*.log
+
+# Ignore local build artifacts
+build/
+dist/
