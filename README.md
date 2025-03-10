@@ -1,5 +1,9 @@
 # 🧠 Tic-Tac-Toe AI (React + Flask + Docker)
 
+<p align="center">
+  <img src="assets/tic_tac_toe.gif" alt="Gameplay Demo" />
+</p>
+
 A full-stack Tic-Tac-Toe game where you play against an AI powered by the **Minimax algorithm**, a classical machine learning approach used in turn-based games. Built with **React** for the frontend and **Flask** for the backend, and containerised using **Docker Compose** for easy setup and deployment.
 
 ---
